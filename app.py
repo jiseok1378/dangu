@@ -140,7 +140,7 @@ def simulate_pba_match(p1, p2, target_score=15, get_log=False):
 # 3. Streamlit UI 구성
 # ==========================================
 st.set_page_config(page_title="PBA 예측 엔진", page_icon="🎱", layout="wide")
-st.title("🎱 PBA 경기 승률 예측기 (마르코프 모델)")
+st.title("🎱 PBA 경기 승률 예측기 (마르코프+ 몬테카를로)")
 st.markdown("PBA 공식 기록을 기반으로 선수의 **모멘텀(상태 전이)**과 **물리적 스탯**을 결합하여 실제 경기를 정밀하게 시뮬레이션합니다.")
 
 col1, col2 = st.columns(2)
